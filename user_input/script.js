@@ -14,3 +14,16 @@ submitButton.onclick = ()=>{
 // setTimeout(function(){
 //     location.reload();
 // }, 9000)
+
+
+//============spread operator====================
+let numbers = [1,2,3,4,5,6,7,8,9];
+let maximum  = Math.max(...numbers);
+console.log(maximum);
+
+// also
+let class1 = ["sujan", "bhuwan","suman"];
+let class2 = ["kabi", "nuna", "prakarti"];
+class1.push(...class1);
+console.log(...class1);
+//===============================================
